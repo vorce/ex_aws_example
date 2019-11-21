@@ -8,8 +8,8 @@ defmodule ExAwsExample.SQSConsumer do
 
   use GenServer
 
-  @account_id "041669274849"
-  @queue_name "my-great-queue2"
+  @account_id "123456789000"
+  @queue_name "my-great-queue"
   @queue_url "https://sqs.eu-west-1.amazonaws.com/#{@account_id}/#{@queue_name}"
   @topic_arn "arn:aws:sns:eu-west-1:#{@account_id}:test"
   @subscription_filter_policy "{}"
