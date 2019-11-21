@@ -1,6 +1,6 @@
 # ExAwsExample
 
-Example project that shows you how to set up some AWS SQS and SNS resources in Elixir with ex_aws, and a SQS consumer to get messages.
+Example project that shows you how to set up some AWS SQS and SNS resources in Elixir with [ex_aws](https://github.com/ex-aws/ex_aws), and a SQS consumer to get messages.
 
 Blog post: <TBD>
 
